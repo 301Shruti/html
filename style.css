@@ -1,0 +1,44 @@
+/* 1. Selector */
+h3 {
+    color: rgb(42, 165, 118); /*element selector*/
+}
+#para{
+    color:rgba(0, 0, 255, 0.471) /*id selector*/
+}
+#heading:hover{
+    color:greenyellow;
+}
+.mypara{
+    color:brown  /*class sector*/
+}
+/*attribute selector*/
+a[href^="https://"] {
+    color:orangered;
+}   
+a[href$=".jpg"] {
+    color:green;
+}   
+a[href*="/"]{
+    color:violet;
+}
+img[src^="https://"]{
+    border: 50px rgb(160, 39, 134);
+}
+/* pseudo selector */
+.unordered-list:first-child{
+    color: palevioletred;
+}
+.ordered-list:last-child{
+    color: grey;
+}
+.ordered-list:nth-child(2){
+    color: brown;
+}
+/*colors & gradients */
+#container-one{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(145, 233, 233);
+    /* background: linear-gradient(cyan, magenta,lightgreen,yellow,orange,brown); */
+    background: linear-gradient(to top right,cyan, magenta,lightgreen,yellow,orange,brown);
+}
