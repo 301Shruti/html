@@ -3,7 +3,8 @@ h3 {
     color: rgb(42, 165, 118); /*element selector*/
 }
 #para{
-    color:rgba(0, 0, 255, 0.471) /*id selector*/
+    color:rgba(0, 0, 255, 0.471) ;/*id selector*/
+   
 }
 #heading:hover{
     color:greenyellow;
@@ -41,4 +42,57 @@ img[src^="https://"]{
     background-color: rgb(145, 233, 233);
     /* background: linear-gradient(cyan, magenta,lightgreen,yellow,orange,brown); */
     background: linear-gradient(to top right,cyan, magenta,lightgreen,yellow,orange,brown);
+}
+#container-three{
+    width: 400px;
+    height: 400px;
+   /* background-color: rgb(145, 233, 233);*/
+    /* background: linear-gradient(cyan, magenta,lightgreen,yellow,orange,brown); */
+    background: radial-gradient(cyan,magenta,lightgreen,green,yellow,orange,brown);
+}
+
+
+p{
+   font: size 16px;
+   
+
+}
+img{
+   height:50%;
+   weight:75%;
+}
+.mypara{
+    border: 1px solid;
+   padding: 12px;/*space b/w border and text*/
+   margin: 5px;/*space outside border*/
+}
+#container-two{
+    width: 400px;
+    height: 400px;
+    /*background:red;*/
+    background: url("https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-size: cover;
+}
+h1{
+    font-family: cursive;
+    text-align:center;
+    color:rgb(61, 126, 14);
+    text-decoration:dashed ;
+    text-shadow:10px 10px 0px chocolate ;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;space-between:center;*/
+    justify-content:center; space-around:center; 
+}
+.item{
+    height:100px ; width: 100px; 
+    font-size: 6em;
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin: 10px;
+    display:block;
 }
